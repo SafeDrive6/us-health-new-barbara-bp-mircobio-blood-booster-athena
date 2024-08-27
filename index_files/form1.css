@@ -1,0 +1,97 @@
+.bottom {
+    display: block;
+    margin: 20px auto;
+    max-width: 700px;
+    width: 100%;
+}
+
+
+.bottom .product {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    border: 1px solid #cbcbcb;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1124px) {
+
+}
+
+.bottom .product .product-left {
+    width: 30%;
+    vertical-align: middle;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.bottom .product .product-left img {
+    display: block;
+    margin: 10px auto;
+    width: 90%
+}
+
+.bottom .product .product-right {
+    width: 70%;
+    vertical-align: middle;
+    padding: 0 20px;
+    box-sizing: border-box
+}
+
+.bottom .product .product-right .offer_box {
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    text-align: center
+}
+
+.bottom .product .product-right .offer_box p {
+    color: #0f0f0f;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    display: inline;
+    zoom: 1;
+    font-family: 'Montserrat', sans-serif
+}
+
+.bottom .product .product-right .offer_box p span {
+    color: #fb0000
+}
+
+.bottom .product .product-right a.button {
+    display: inline-block;
+    width: 100%;
+    background: #ed8023;
+    background: -moz-linear-gradient(top, #ed8023 0, #ff4e00 100%);
+    background: -webkit-linear-gradient(top, #ed8023 0, #ff4e00 100%);
+    background: linear-gradient(to bottom, #ed8023 0, #ff4e00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed8023', endColorstr='#ff4e00', GradientType=0);
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 2px 8px #707070
+}
+
+@media (max-width: 600px) {
+    .bottom .product {
+        display: block;
+    }
+
+    .bottom .product .product-right {
+        width: 100%;
+    }
+
+}
